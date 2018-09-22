@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPhrases"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/restaurant_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/achats"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPhrases"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/achats_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/voyage"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPhrases"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/voyage_name"
+        android:textAlignment="center" />
+
+</LinearLayout>

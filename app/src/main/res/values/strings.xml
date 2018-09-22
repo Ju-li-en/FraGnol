@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FraGnol</string>
+    <string name="couleurs_name">Les couleurs</string>
+    <string name="nombres_name">Les nombres</string>
+    <string name="phrases_name">Quelques phrases utiles</string>
+    <string name="voyage_name">Le voyage</string>
+    <string name="restaurant_name">Au restaurant</string>
+    <string name="achats_name">Les achats</string>
+    <string name="temps_name">Le temps</string>
+    <string name="baby_name">Les enfants</string>
+    <string name="table_name">A table</string>
+</resources>

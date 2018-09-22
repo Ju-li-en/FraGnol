@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.ciavaldini.android.apprendreespagnal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_forground_spain"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CouleursActivity"
+            android:label="@string/couleurs_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".BabyActivity"
+            android:label="@string/baby_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".TableActivity"
+            android:label="@string/table_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".TempsActivity"
+            android:label="@string/temps_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".NombresActivity"
+            android:label="@string/nombres_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="@string/phrases_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".AchatsActivity"
+            android:label="@string/achats_name"
+            android:parentActivityName=".PhrasesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.PhrasesActivity" />
+        </activity>
+        <activity
+            android:name=".VoyageActivity"
+            android:label="@string/voyage_name"
+            android:parentActivityName=".PhrasesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.PhrasesActivity" />
+        </activity>
+        <activity
+            android:name=".RestaurantActivity"
+            android:label="@string/restaurant_name"
+            android:parentActivityName=".PhrasesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ciavaldini.android.apprendreespagnal.PhrasesActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

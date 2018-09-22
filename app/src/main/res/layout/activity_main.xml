@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/couleurs"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorCouleurs"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/couleurs_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/temps"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorTemps"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/temps_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorNombres"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/nombres_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/baby"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorBaby"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/baby_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorTable"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/table_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPhrases"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/phrases_name"
+        android:textAlignment="center" />
+
+</LinearLayout>
