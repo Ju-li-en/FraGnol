@@ -39,10 +39,11 @@ public class BabyActivity extends AppCompatActivity {
         words.add(new Word("La toalla ", "La serviette ", R.raw.e9));
         words.add(new Word("El termometro ", "Le thermomètre ", R.raw.e10));
         words.add(new Word("El capazo ", "Le landau ", R.raw.e11));
-        words.add(new Word("Llocar ", "Pleurer ", R.raw.e12));
-        words.add(new Word("Dar el pecho ", "Donner le sein ", R.raw.e13));
-        words.add(new Word("Amamantar ", "Allaiter ", R.raw.e14));
-        words.add(new Word("Mamar ", "Têter ", R.raw.e15));
+        words.add(new Word("Llorar ", "Pleurer ", R.raw.e12));
+        words.add(new Word("Llanto ", "Les pleurs ", R.raw.e13));
+        words.add(new Word("Dar el pecho ", "Donner le sein ", R.raw.e14));
+        words.add(new Word("Amamantar ", "Allaiter ", R.raw.e15));
+        words.add(new Word("Mamar ", "Têter ", R.raw.e16));
 
         WordAdapter adapter = new WordAdapter(this, words, R.color.colorBaby);
 
