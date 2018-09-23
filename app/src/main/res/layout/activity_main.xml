@@ -56,6 +56,15 @@
         android:paddingTop="16dp"
         android:text="@string/table_name"
         android:textAlignment="center" />
+    <TextView
+        android:id="@+id/geo"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorGeo"
+        android:textColor="@color/colorTexte"
+        android:paddingTop="16dp"
+        android:text="@string/table_name"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/phrases"
