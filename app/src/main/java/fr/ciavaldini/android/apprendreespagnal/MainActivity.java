@@ -1,6 +1,5 @@
 package fr.ciavaldini.android.apprendreespagnal;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,6 +20,15 @@ public class MainActivity extends AppCompatActivity {
         TextView textTemps = findViewById(R.id.temps);
         TextView textTable = findViewById(R.id.table);
         TextView textBaby = findViewById(R.id.baby);
+        TextView textGeo = findViewById(R.id.geo);
+
+        textGeo.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, GeoActivity.class);
+                startActivity(i);
+            }
+        });
 
         textBaby.setOnClickListener(new OnClickListener() {
             @Override

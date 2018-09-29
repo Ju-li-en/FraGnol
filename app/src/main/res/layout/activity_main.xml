@@ -63,7 +63,7 @@
         android:background="@color/colorGeo"
         android:textColor="@color/colorTexte"
         android:paddingTop="16dp"
-        android:text="@string/table_name"
+        android:text="@string/geo_name"
         android:textAlignment="center" />
 
     <TextView

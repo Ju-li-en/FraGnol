@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
     <color name="colorNombres">#06c206</color>
     <color name="colorCouleurs">#4056ff</color>
     <color name="colorPhrases">#e41830</color>
     <color name="colorTemps">#dc26d0</color>
     <color name="colorTexte">#ffffff</color>
-    <color name="colorBaby">#f6f41a16</color>
+    <color name="colorBaby">#f6d65f05</color>
     <color name="colorTable">#f616e1f4</color>
     <color name="colorGeo">#123456</color>
+    <color name="colorPrimary">#123456</color>
+    <color name="colorPrimaryDark">#123456</color>
+    <color name="colorAccent">#123456</color>
 </resources>

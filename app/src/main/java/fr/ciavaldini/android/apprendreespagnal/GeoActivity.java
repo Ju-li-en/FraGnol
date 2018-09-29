@@ -60,7 +60,7 @@ public class GeoActivity extends AppCompatActivity {
         words.add(new Word("El pico ", "Le sommet ", R.raw.g30));
         words.add(new Word("La playa ", "La plage ", R.raw.g31));
 
-        WordAdapter adapter = new WordAdapter(this, words, R.color.colorPhrases);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.colorGeo);
 
         ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
